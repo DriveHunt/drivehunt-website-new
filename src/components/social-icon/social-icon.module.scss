@@ -1,0 +1,32 @@
+.social-icon {
+  color: var(--color-true-white);
+  text-decoration: none;
+  display: flex;
+  flex-flow: row;
+  max-width: 100%;
+  align-items: center;
+}
+
+.inactive {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.icon {
+  color: var(--color-true-white);
+  height: 28px;
+  flex-shrink: 0;
+  width: auto;
+}
+
+.size-small .icon {
+  height: 20px;
+}
+
+.link {
+  color: var(--color-true-white);
+  padding-left: 8px;
+  display: inline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

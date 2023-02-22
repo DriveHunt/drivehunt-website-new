@@ -1,0 +1,9 @@
+.opener {
+  background: var(--color-true-black);
+  mask-image: linear-gradient(black 50%, transparent);
+  filter: brightness(0.75);
+}
+
+.image {
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+@import "../../styles/mixins";
+
+.social-banner {
+  background: var(--color-true-black);
+}
+
+.social-banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+
+  @include screen-desktop {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  h1 {
+    margin: 0;
+  }
+}

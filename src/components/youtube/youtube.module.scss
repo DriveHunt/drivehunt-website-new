@@ -1,0 +1,14 @@
+@import "../../styles/mixins";
+
+.youtube-video {
+  margin-left: -16px;
+  margin-right: -16px;
+
+  iframe {
+    height: 300px;
+
+    @include screen-desktop() {
+      height: 500px;
+    }
+  }
+}

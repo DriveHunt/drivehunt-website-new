@@ -1,0 +1,21 @@
+:root {
+  $colors: (
+    "gold-55": #C7A64F,
+    "gold-40": #977E3C,
+    "gold-25": #5F4D25,
+    "gold-15": #392D15,
+    "gold-10": #1F170A,
+    "true-black": #000,
+    "true-white": #FFF,
+  );
+
+  @each $name, $hex in $colors {
+    --color-#{$name}: #{$hex};
+  }
+
+  @each $name, $hex in $colors {
+    --rgb-#{$name}: #{red($hex), green($hex), blue($hex)};
+  }
+
+  --color-primary: var(--color-gold-55);
+}

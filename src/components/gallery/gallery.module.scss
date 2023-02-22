@@ -1,0 +1,8 @@
+.gallery {
+  display: flex;
+  flex-flow: row;
+  gap: 8px;
+  width: calc(100% + 32px);
+  margin-left: -16px;
+  padding: 2rem 0;
+}

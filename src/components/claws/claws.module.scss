@@ -1,0 +1,12 @@
+.claws {
+  fill: var(--color-true-white);
+  max-width: 100%;
+  mix-blend-mode: overlay;
+  height: auto;
+  transform: translateY(-100%);
+}
+
+.claws-container {
+  height: 0;
+  position: absolute;
+}

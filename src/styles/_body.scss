@@ -1,0 +1,8 @@
+html, body {
+  background: var(--color-true-black);
+  color: var(--color-true-white);
+  //noinspection CssUnknownTarget
+  background-image: url("/images/background.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
