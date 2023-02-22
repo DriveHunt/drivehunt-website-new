@@ -10,12 +10,22 @@ import { BottomNav } from "../components/bottom-nav/bottom-nav"
 import { Link } from "gatsby"
 import { NewParallax } from "../components/new-parallax/new-parallax"
 import { Soundcloud } from "../components/soundcloud/soundcloud"
+import { GatsbySeo } from "gatsby-plugin-next-seo"
 
 const IndexPage = () => (
   <>
-    <SocialBanner />
+    <GatsbySeo 
+        title='Drive Hunt - Rockband aus Regensburg' 
+        description='' 
+        language="de"
+        metaTags={["rockband", "regensburg", "drive", "hunt"]}
+        facebook={{appId:"1133779390633383"}}
+    />
 
+
+    <SocialBanner />
     <NewParallax></NewParallax>
+
     <main>
       <div className={"container"}>
         <div className={"row"}>
@@ -142,4 +152,3 @@ const IndexPage = () => (
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
