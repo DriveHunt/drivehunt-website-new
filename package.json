@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "drive-hunt-website",
-  "author": "Daniel Weiß",
+  "author": "Drive Hunt <info@drivehunt.de>",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
     "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -30,5 +31,8 @@
     "react-dom": "^18.2.0",
     "react-scroll-parallax": "^3.3.2",
     "sass": "^1.58.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
   }
 }
