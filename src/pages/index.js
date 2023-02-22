@@ -1,9 +1,6 @@
 import * as React from "react"
 
 import "../styles/styles.scss"
-import {Logo} from "../components/logo/logo";
-import {Parallax} from "../components/parallax/parallax";
-import {Opener} from "../components/opener/opener";
 import {SocialBanner} from "../components/social-banner/social-banner";
 import {StaticImage} from "gatsby-plugin-image";
 import {Gallery} from "../components/gallery/gallery";
@@ -11,31 +8,25 @@ import {YouTubeVideo} from "../components/youtube/youtube";
 import {SocialLinks} from "../components/social-links/social-links";
 import {BottomNav} from "../components/bottom-nav/bottom-nav";
 import {Link} from "gatsby";
+import { NewParallax } from "../components/new-parallax/new-parallax";
 
 const IndexPage = () => (
   <>
         <SocialBanner/>
-        <Parallax height={250} centeredAt={"top"}>
-            <Opener/>
-            <Logo/>
-        </Parallax>
+
+        <NewParallax></NewParallax>
         <main>
             <div className={"container"}>
                 <div className={"row"}>
                     <div className={"col-lg-12"}>
-                        <h1>
-                            Make Rock great again!
-                        </h1>
+                        <h1>Wer Drive Hunt möchte, bekommt 100% Drive Hunt.</h1>
                     </div>
                     <div className={"col-lg-6"}>
                         <p>
-                            Drive Hunt bringt genau das auf die Bühne, was wahren Musik-Liebhabern und Rockfans während
-                            der langen Pandemie-Pause gefehlt hat:
-                            &nbsp;<span className={"emphasised"}>Ehrliche Rockmusik in überzeugender Qualität</span>
-                        </p>
-                        <p>
-                            Die Regensburger Band bietet einen authentischen Mix aus neuen Songs im Classic Rock Stil
-                            und einem Best of der Rockgeschichte.
+                        Aufgesetzter Rock’n’Roll Look und Playbacks vom Band, um
+                        diverse Studio-Tricksereien zu kaschieren – damit kann die
+                        Rockband aus Regensburg nichts anfangen. Drive Hunt performt
+                        ihre Songs <span className={"emphasised"}>100% live und 100% authentisch.</span>
                         </p>
                     </div>
                     <div className={"col-lg-6"}/>
@@ -51,12 +42,27 @@ const IndexPage = () => (
                 </div>
                 <div className={"row"}>
                     <div className={"col-lg-12"}>
-                        <h2>
-                            Music – Recording in progress
-                        </h2>
+                        <h2>Die Vita der Band</h2>
                         <p>
-                            ...more infos coming soon! STAY TUNED!
+                            liest sich knackig wie ihre Songs selbst: Mit der Aussicht,
+                            doch einen Gig im strengen Corona-Lockdown zu spielen,
+                            <span className={"emphasised"}> formierte sich die Band 2021 </span>
+                            mit kurzer Vorlaufzeit, um mit Rocking Chefs Starkoch Ralf Jakumeit zum 1. Pfälzer
+                            Foodrock Open Air zu fahren und dort dem Publikum neben
+                            CC Top und Krüger Rockt einzuheizen.
                         </p>
+                        <p>
+                            <span className={"emphasised"}>2022 wurde maßgeblich für Songwriting </span>
+                            und Studio-Recording genutzt, um das Repertoire zu erweitern.
+                            Die Titel der ersten Single-Auskopplungen „Wild & Free“,
+                            „To The Top“ oder auch „Free World“ aus dem für das Jahr
+                            2023 erscheinenden Debüt-Album sprechen der Frontfrau
+                            Sabrina aus der Seele.
+                        </p>
+                        <p>
+                            Doch 100% wirken können und wollen die Songs nur
+                            vor Publikum, das ehrliche Rockmusik mit Klasse liebt -
+                            100% live und 100% authentisch!</p>
                     </div>
                 </div>
                 <div className={"row"}>
@@ -76,7 +82,7 @@ const IndexPage = () => (
                 <div className={"row"}>
                     <div className={"col-12"}>
                         <h2>Live impressions</h2>
-                        <YouTubeVideo id={"dPMJQCmfcs0"}/>
+                        <YouTubeVideo id={"hp1wx8sk748"}/>
                     </div>
                 </div>
             </div>
@@ -93,7 +99,7 @@ const IndexPage = () => (
             </div>
         </footer>
         <BottomNav>
-            <span>Copyright © 2022 Drive Hunt</span>
+            <span>Copyright © 2023 Drive Hunt</span>
             <span><Link to={"/imprint"}>Impressum</Link></span>
         </BottomNav>
 

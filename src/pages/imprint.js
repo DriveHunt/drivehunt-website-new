@@ -1,18 +1,12 @@
-import {Seo} from "../components/seo";
+
 import {SocialBanner} from "../components/social-banner/social-banner";
-import {Parallax} from "../components/parallax/parallax";
-import {Opener} from "../components/opener/opener";
-import {Logo} from "../components/logo/logo";
+import {NewParallax} from "../components/new-parallax/new-parallax";
 import * as React from "react";
 
 const ImprintPage = () => (
     <>
-        <Seo/>
         <SocialBanner/>
-        <Parallax height={250} centeredAt={"top"}>
-            <Opener/>
-            <Logo/>
-        </Parallax>
+        <NewParallax></NewParallax>
         <main>
             <div className={"container"}>
                 <h1>Impressum</h1>
