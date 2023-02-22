@@ -8,7 +8,8 @@ import {YouTubeVideo} from "../components/youtube/youtube";
 import {SocialLinks} from "../components/social-links/social-links";
 import {BottomNav} from "../components/bottom-nav/bottom-nav";
 import {Link} from "gatsby";
-import { NewParallax } from "../components/new-parallax/new-parallax";
+import {NewParallax} from "../components/new-parallax/new-parallax";
+import {Soundcloud} from "../components/soundcloud/soundcloud";
 
 const IndexPage = () => (
   <>
@@ -73,6 +74,12 @@ const IndexPage = () => (
                         </Gallery>
                     </div>
                 </div>
+                <div className={"row"}>
+                    <div className={"col-12"}>
+                        <h2>Feel us</h2>
+                        <Soundcloud></Soundcloud>
+                    </div>
+                </div>                
                 <div className={"row"}>
                     <div className={"col-12"}>
                         <h2>Support us</h2>
