@@ -4,12 +4,30 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Minimal Starter
+  Drive Hunt Website Minimal Starter
 </h1>
 
 ## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
+### Prerequisites
+All install scripts depend on Homebrew. Please see: https://docs.brew.sh/Installation
+1. Install VS Code
+    ```shell
+    brew install --cask visual-studio-code
+    ```
+2. Install Node 
+    ```shell
+    brew install node
+    ```
+3. Install XCode Command Line Tools
+    ```shell
+    xcode-select --install
+    ```
+4. Install Gatsby 
+    ```shell
+    npm install -g gatsby-cli
+    ```
+### Work with Gatsby
+1.  **Create a Gatsby site. (Optional)**
 
     Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
@@ -42,8 +60,3 @@
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
